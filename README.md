@@ -49,7 +49,7 @@ After create the file, open the file and edit it.
 Since you modified your file up the file on the staging area, 
 in other words `git add [file]`. Git add, adds file to the staging area.
 
-![alt text](github-learning(1.jpg)
+![alt text](github-learning(1).jpg)
 
 Now `git commit -m ` in order to tap a snapshot of an changes to the file/folder.
 Last git push use the existing repository from the command line or the image above.
