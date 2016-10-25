@@ -49,7 +49,7 @@ After create the file, open the file and edit it.
 Since you modified your file up the file on the staging area, 
 in other words `git add [file]`. Git add, adds file to the staging area.
 
-![alt text](github-learning(3).jpg)
+![alt text](addd.jpg)
 
 Now `git commit -m ` in order to tap a snapshot of an changes to the file/folder.
 Last git push use the existing repository from the command line or the image above.
@@ -69,7 +69,7 @@ Last git push use the existing repository from the command line or the image abo
 `git add [file]` - adds file(s) to staging area 
 to make sure modified files are read already just like this image below 
 
-[Examples provided](github-learning(3).jpg)
+![alt text](add.jpg)
 
 `git push` - to push updated files to remote
 
@@ -82,10 +82,10 @@ on the modified file you "saved"/ snapped
 
 Changes will be in red that arent on staging area, but in green are modified files that are on stage.
 
-[Examples provided](github-learning(3).jpg)
+![alt text](add.jpg)
 
 
 If you use all thse commands constantly, your pratically can ask what types of changes you've done.
 Then add all changes, save them. Next your able to push them on to you repository. All in all you can constantly 
-keep updating you remote online and local workspace, just dont forget to git add, push, commit. Last tip always 
-use git status. 
+keep updating you remote online and local workspace, just dont forget to **git add, push, commit**. Last tip always 
+use **git status**. 
