@@ -49,11 +49,37 @@ After create the file, open the file and edit it.
 Since you modified your file up the file on the staging area, 
 in other words `git add [file]`. Git add, adds file to the staging area.
 
-![alt text](github-learning(1).jpg)
+![alt text](github-learning(3).jpg)
 
 Now `git commit -m ` in order to tap a snapshot of an changes to the file/folder.
 Last git push use the existing repository from the command line or the image above.
 
+`cd` - change directory
+
+
+`touch` - create file(s)
+
+
+`git init`- create a repo
+
 
 ---
 ## Workflow & Commands
+
+`git add [file]` - adds file(s) to staging area 
+to make sure modified files are read already just like this image below 
+
+![alt text](github-learning(3).jpg)
+
+`git push` - to push updated files to remote
+
+
+`git comnit -m `- to take a snapshot with a meassge attach based 
+on the modified file you "saved"/ snapped 
+
+
+`git status`- bascially asking the computer for changes you've made.
+
+Changes will be in red that arent on staging area, but in green are modified files that are on stage.
+
+![alt text](github-learning(3).jpg)
