@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="GitHub-tutorial : Master Plan">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>GitHub-tutorial</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/luisc8487/github-tutorial">View on GitHub</a>
+
+          <h1 id="project_title">GitHub-tutorial</h1>
+          <h2 id="project_tagline">Master Plan</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/luisc8487/github-tutorial/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/luisc8487/github-tutorial/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Luis Cordero</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>The difference between Git and Github </p>
+
+<p>Git is basically taking a snapshots of 
+code and it doesn't require GitHub. 
+But Github requires Git. Github uses 
+the <a href="https://www.thecloud.net/">cloud</a>,
+an online server to store your work. </p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>Go to <a href="https://github.com/">github.com</a> sign up. Make sure you sign for <strong>free account</strong>.
+After doing three step setup, you have just made a github account.  </p>
+
+<p>Keep in mind to remember your <strong>password</strong> and <strong>username</strong> for your github account. </p>
+
+<p><img src="Screenshot_2016-10-24-11-44-29.png" alt="alt text"></p>
+
+<p>SSH keys are a way to identify trusted computers without involving passwords. </p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>How to create your first repo, only take a few steps. </p>
+
+<p>First create a new repo on your github account,
+ as seen on the images below. After giving the repo a name, 
+ keep in mind the folder name of that repo has to be same (<em>case sensitive</em>)
+ within your workspace of that specific folder you'll be working on. </p>
+
+<p><img src="github-tutorial.jpg" alt="alt text">
+<img src="dream.jpg" alt="alt text"></p>
+
+<p>So now since we're in our workspace within <a href="https://c9.io/">c9.io</a>.
+Lets create a file called README.md with the use of <code>touch</code> command.
+But before you create file <code>cd</code> into your file. By the time you cd into your file master branch must appear within bash. This tells the user that the file is a repository or another way you could have create a repository would be <code>git init</code>.</p>
+
+<p><img src="github-learning.jpg" alt="alt text"></p>
+
+<p>After creating the file, open the file and edit it. 
+Since you modified your file up to the staging area, in other words <code>git add [file]</code>. Git add, adds file to the staging area.</p>
+
+<p><img src="add.jpg" alt="alt text"></p>
+
+<p>Now, <code>git commit -m "[message]"</code> in order to take a snapshot of any changes to the file/folder. Your last <code>git push</code> use the existing repository from the command line or the image above.</p>
+
+<p><code>cd</code> - change directory</p>
+
+<p><code>touch</code> - create file(s)</p>
+
+<p><code>git init</code>- create a repo</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p><code>git add [file]</code> - adds file(s) to staging area 
+to make sure modified files are read already just like this image below </p>
+
+<p><img src="add.jpg" alt="alt text"></p>
+
+<p><code>git push</code> - to push updated files to remote</p>
+
+<p><code>git commit -m "[message]"</code>- to take a snapshot with a message attached based 
+on the modified file you "saved"/ snapped. </p>
+
+<p><code>git status</code>- bascially asks the computer for changes you've made to anything in your repo.</p>
+
+<p>Changes will be in red that aren't on staging area, but if they are in green they are modified files that are on stage.</p>
+
+<p><img src="add.jpg" alt="alt text"></p>
+
+<p>If you use all these commands constantly, you pratically can ask what types of changes you've done. Then add all changes, now you can save them. Next your able to push them on to you repository. Anyways, you can constantly 
+keep updating you remote online and local workspace, just dont forget to <strong><code>git add, git push,  git commit</code></strong>. Last tip always 
+use <strong><code>git status</code></strong>. </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">GitHub-tutorial maintained by <a href="https://github.com/luisc8487">luisc8487</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
