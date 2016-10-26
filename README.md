@@ -38,21 +38,17 @@ How to create your first repo, only take a few steps.
 ![alt text](dream.jpg)
 
 So now since we're in our workspace within [c9.io](https://c9.io/).
-Lets create a file called README.md witht the use of `touch` command.
-But before you create file `cd` into your file. By thew time you cd into your file
-master branch must appear within bash. This tells the user that the file is a repository
-or another way you7 could have create a repository would be `git init`.
+Lets create a file called README.md with the use of `touch` command.
+But before you create file `cd` into your file. By the time you cd into your file master branch must appear within bash. This tells the user that the file is a repository or another way you could have create a repository would be `git init`.
 
 ![alt text](github-learning.jpg)
 
-After create the file, open the file and edit it. 
-Since you modified your file up the file on the staging area, 
-in other words `git add [file]`. Git add, adds file to the staging area.
+After creating the file, open the file and edit it. 
+Since you modified your file up to the staging area, in other words `git add [file]`. Git add, adds file to the staging area.
 
-![alt text](addd.jpg)
+![alt text](add.jpg)
 
-Now `git commit -m ` in order to tap a snapshot of an changes to the file/folder.
-Last git push use the existing repository from the command line or the image above.
+Now, `git commit -m "[message]"` in order to take a snapshot of any changes to the file/folder. Your last `git push` use the existing repository from the command line or the image above.
 
 `cd` - change directory
 
@@ -74,18 +70,17 @@ to make sure modified files are read already just like this image below
 `git push` - to push updated files to remote
 
 
-`git comnit -m `- to take a snapshot with a meassge attach based 
-on the modified file you "saved"/ snapped 
+`git commit -m "[message]"`- to take a snapshot with a message attached based 
+on the modified file you "saved"/ snapped. 
 
 
-`git status`- bascially asking the computer for changes you've made.
+`git status`- bascially asks the computer for changes you've made to anything in your repo.
 
-Changes will be in red that arent on staging area, but in green are modified files that are on stage.
+Changes will be in red that aren't on staging area, but if they are in green they are modified files that are on stage.
 
 ![alt text](add.jpg)
 
 
-If you use all thse commands constantly, your pratically can ask what types of changes you've done.
-Then add all changes, save them. Next your able to push them on to you repository. All in all you can constantly 
-keep updating you remote online and local workspace, just dont forget to **git add, push, commit**. Last tip always 
-use **git status**. 
+If you use all these commands constantly, you pratically can ask what types of changes you've done. Then add all changes, now you can save them. Next your able to push them on to you repository. Anyways, you can constantly 
+keep updating you remote online and local workspace, just dont forget to **`git add, git push,  git commit`**. Last tip always 
+use **`git status`**. 
